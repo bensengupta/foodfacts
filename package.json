@@ -1,0 +1,15 @@
+{
+  "name": "foodfacts-app",
+  "private": true,
+  "scripts": {
+    "next:dev": "yarn workspace foodfacts-nextapp dev",
+    "backend:dev": "yarn workspace foodfacts-backend dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}

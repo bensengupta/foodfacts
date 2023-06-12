@@ -1,0 +1,19 @@
+{
+  "name": "foodfacts-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "yarn compile && node ./dist/index.js",
+    "dev": "tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.3",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  }
+}
